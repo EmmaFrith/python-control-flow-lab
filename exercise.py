@@ -100,29 +100,87 @@
 
 
 
-# Exercise 3: Calculate Dog Years
-#
-# Write a Python function named `calculate_dog_years` that calculates a dog's age in dog years.
-# Fill in the logic to perform the calculation inside the function.
-#
-# Function Details:
-# - Prompt the user to enter a dog's age: "Input a dog's age: "
-# - Calculate the dog's age in dog years:
-#      - The first two years of the dog's life count as 10 dog years each.
-#      - Each subsequent year counts as 7 dog years.
-# - Print the calculated age: "The dog's age in dog years is xx."
-# - Replace 'xx' with the calculated dog years.
-#
-# Hints:
-# - Use the `input()` function to capture user input.
-# - Convert the string input to an integer using `int()`.
-# - Apply conditional logic to perform the correct age calculation based on the dog's age.
+# # Exercise 3: Calculate Dog Years
+# #
+# # Write a Python function named `calculate_dog_years` that calculates a dog's age in dog years.
+# # Fill in the logic to perform the calculation inside the function.
+# #
+# # Function Details:
+# # - Prompt the user to enter a dog's age: "Input a dog's age: "
+# # - Calculate the dog's age in dog years:
+# #      - The first two years of the dog's life count as 10 dog years each.
+# #      - Each subsequent year counts as 7 dog years.
+# # - Print the calculated age: "The dog's age in dog years is xx."
+# # - Replace 'xx' with the calculated dog years.
+# #
+# # Hints:
+# # - Use the `input()` function to capture user input.
+# # - Convert the string input to an integer using `int()`.
+# # - Apply conditional logic to perform the correct age calculation based on the dog's age.
 
-def calculate_dog_years():
-    # Your control flow logic goes here
+# def calculate_dog_years():
+#     # Your control flow logic goes here
 
-# Call the function
-calculate_dog_years()
+#     dog_age = int(input('Enter your dog’s age: '))
+#     print(f'The user entered {dog_age}')
+
+#     if dog_age <= 2:
+#         print(f'Your dog’s age is {dog_age * 10}')
+#     else:
+#         print(f'Your dog’s age is {((dog_age - 2) * 7) + 20}')    
+
+
+# # Call the function
+# calculate_dog_years()
+
+
+
+
+
+# # Exercise 4: Weather Advice
+# #
+# # Write a Python script named `weather_advice` that provides clothing advice based on weather conditions.
+# #
+# # Requirements:
+# # - The script should prompt the user to enter if it is cold (yes/no).
+# # - Then, ask if it is raining (yes/no).
+# # - Use logical operators to determine clothing advice:
+# #   - If it is cold AND raining, print "Wear a waterproof coat."
+# #   - If it is cold BUT NOT raining, print "Wear a warm coat."
+# #   - If it is NOT cold but raining, print "Carry an umbrella."
+# #   - If it is NOT cold AND NOT raining, print "Wear light clothing."
+# #
+# # Hints:
+# # - Use logical operators (`AND`, `OR`, `NOT`) in your if statements to handle multiple conditions.
+
+# def weather_advice():
+#     # Your control flow logic goes here
+
+#         is_it_cold = input('Is it cold? Say "yes" or "no": ').strip().lower()
+#         print(f'The user entered {is_it_cold}')
+       
+#         is_it_raining = input('Is it raining? Say "yes" or "no": ').strip().lower()
+#         print(f'The user entered {is_it_raining}')
+
+#         if is_it_cold == 'yes' and is_it_raining == 'yes':
+#             print('Wear a waterproof coat')
+            
+#         elif is_it_cold == 'yes' and is_it_raining == 'no':
+#             print('Wear a warm coat')
+
+#         elif is_it_cold == 'no' and is_it_raining == 'yes':
+#             print('Carry an umbrella')  
+
+#         else:
+#             print('Wear light clothing')      
+
+
+# # Call the function
+# weather_advice()
+
+
+
+
 
 
 
